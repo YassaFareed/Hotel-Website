@@ -1,0 +1,53 @@
+
+.acc{
+    display: inline;
+    float:right;
+    margin:2% 15%;  
+}
+#header {
+    background: black;
+    font-family: Arial; 
+    height: 100px;
+}
+
+
+body {
+    margin:0;
+    padding:0;
+    line-height: 1.5em;
+}
+
+/* ##### Navigation Bar ##### */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 40px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: 	#808080;
+}
+
+.active {
+    background-color: #0099ff;
+}	
+
