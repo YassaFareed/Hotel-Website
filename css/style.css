@@ -31,9 +31,16 @@ li {
     border-right:1px solid #bbb;
 }
 
-li:last-child {
+li:nth-last-child(2) {
     border-right: none;
 }
+
+li:nth-last-child(1) {
+    display:none;
+}
+
+
+
 
 li a {
     display: block;
@@ -51,3 +58,19 @@ li a:hover:not(.active) {
     background-color: #0099ff;
 }	
 
+@media all and (max-width:640px){
+    
+    
+    li:nth-child(n-1){
+        display:none;
+    }
+    li:nth-last-child(1){
+        display:block;
+        float:right !important;
+        border-right:none;
+       
+    }
+   
+   
+   
+}
