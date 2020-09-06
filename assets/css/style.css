@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+/* Logo */
+.logo
+{
+    color: white;
+    font-size-adjust: none;
+    font-size: 50px;
+    padding-left:25px
+}
+
+/* nav bar menu */
+header
+{
+    background: black;
+    width: 100%;
+    height: 10%;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+nav a
+{
+    text-decoration: none;
+    color:black;
+}
+nav li
+{
+    list-style: none;
+}
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-links
+{
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+  
+}
+.main-links li a
+{
+    color: white;
+    margin: 13px;
+    align-content: center;
+}
+.main-links li:hover
+{
+    background: grey;
+}
+
+/* Search input */
+.searchbar
+{
+    height: 45px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.search
+{
+    display: block;
+    width: 40%;
+    height: 50%;
+    margin-right: 10px ;
+}
+.btn
+{
+    display: block;
+    width: 100px;
+    height: 59%;
+}
+
+/* Image Slider */
+
+.images
+{
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+.rightslide , .leftslide{
+
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #444444;
+    border-radius: 50%;
+    color: wheat;
+    font-size: 40px;
+    top: 50%;
+    margin: -20px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.rightslide:hover , .leftslide:hover{
+    background: blue;
+}
+
+.rightslide
+{
+    right: 30px;
+}
+.leftslide
+{
+    left: 30px;
+}
+.images .img-items .item img
+{
+    max-width: 100%;
+    display: block;
+}
+.images .img-items .item 
+{
+    display: none;
+    position: relative;
+}
+.caption
+{
+    position:absolute;
+    height: 100px;
+    bottom: 50px;
+    background: lightgray;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.images .img-items .item.active
+{
+    display:block;
+}
+.images img
+{
+    width: 100%;
+    height: 20%;
+}
+
+
+/*shows active status of navbar*/
+.active{
+    background-color:slategray;
+}
+
+.About-background{
+    background-image : url("../images/room.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.content-wrapper{
+    float:left;
+    width:80%;
+    margin-top:5%;
+    margin-left:5%;
+    line-height:1.9;
+    font-variant-caps:normal;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-stretch: expanded;
+    font-size:15pt;
+   
+}
+.overview{
+    margin-top:9%;
+}
+
+.quote{
+    margin-top:9%;
+    font-size:20pt;
+    color:purple;
+    font-weight:bold;
+}
+h1 {
+    font-size: 36px;
+    line-height: 40px;
+  
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+h3 {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+
+
