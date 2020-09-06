@@ -152,4 +152,58 @@ nav li
 }
 
 
+/*shows active status of navbar*/
+.active{
+    background-color:slategray;
+}
+
+.About-background{
+    background-image : url("../images/room.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.content-wrapper{
+    float:left;
+    width:80%;
+    margin-top:5%;
+    margin-left:5%;
+    line-height:1.9;
+    font-variant-caps:normal;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-stretch: expanded;
+    font-size:15pt;
+   
+}
+.overview{
+    margin-top:9%;
+}
+
+.quote{
+    margin-top:9%;
+    font-size:20pt;
+    color:purple;
+    font-weight:bold;
+}
+h1 {
+    font-size: 36px;
+    line-height: 40px;
+  
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+h3 {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+
 
