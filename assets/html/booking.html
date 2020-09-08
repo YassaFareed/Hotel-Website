@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+<!--need to add google fonts + font awesome icons-->
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -60,30 +61,45 @@
 		</nav>
 	</header>
 
-<div>	
-    <form align="center" class="reserve"> 
-        <fieldset>
-              <legend>Reservation Form</legend>
-        <label>Name: <input type='text' id = 'name' name = 'name' required></label>
-          <br>
-		  <br>
-      <label>Email: <input type='email' name = 'email' required> </label>
-			 
-       <br>
-	<br>
-      <label>Adults: <input type="number" id="adult" name="numberInputadults" min="1" max="5" required></label>
-	   <label>Children: <input type="number" id="child" name="numberInputchildren" min="1" max="5" onchange="check()" ></label>
-	 <br> <br>
-	
-	   <label>Check in : <input type="date" name="dateInputin" required></label>
-	   <br><br>
-	   <label>Check out : <input type="date" name="dateInputout" required></label>
-		<br><br><br>
-          <input type = 'submit' value = "Reserve">
-</fieldset>
-</form> 
-</div>	
 
+<form >
+  <div class="container1">
+    <h3>&nbsp Guest Information</h3>
+    <br>
+    <input type="text" placeholder="First Name" name="fn" id="fn" required>
+	<hr>
+    <input type="text" placeholder="Last Name" name="txt" id="txt" required>
+	<hr>
+    <input type="email" placeholder="Email address" name="email" id="email" required>
+    <hr>
+    <input type="number" placeholder="Phone Number" name="pn" id="pn" required>
+	<hr>
+	 <input type="number" placeholder="Postal Code" name="pc" id="pc" required>
+   <hr><br>
+  </div>
+
+  <div class="container2">
+	
+    <h3>Guarantee/Payment Method</h3>
+
+	<img src="../images/visa.jpg" alt="Visa" width="350px" height="150px">
+  <input type="text" placeholder="Name of Card" name="cardname" id="cardname" required>
+	<hr>
+    <input type="number" placeholder="Card Number" name="cardnum" id="cardnum" required>
+	<hr>
+    <input type="number" placeholder="MM/YY" name="date" id="date" required>
+    <hr>
+	<input id="yes1" name="yes1" type="checkbox" value="yes" />   
+              <label for = "yes1">Use the same address as contact information.</label>
+	<input type="number" placeholder="Postal Code" name="pc" id="pc" required>    
+	<hr>
+	<input id="yes2" name="yes2" type="checkbox" value="yes"/>   
+              <label for = "yes2">Notify me about special offers.</label>
+	
+  <input type = "submit" class="submit-button" value = "Verify"/>
+  </div>
+  
+</form>
 
 
 
@@ -107,7 +123,6 @@
 			</footer>
 
 
-			<script src="../js/booking.js"></script>
 
 </body>
 
