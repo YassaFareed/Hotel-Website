@@ -81,6 +81,10 @@
     opacity:0.7;
 }
 
+.opac:hover {
+    opacity: 1.0;
+  }
+
 
 
 /*shows active status of navbar*/

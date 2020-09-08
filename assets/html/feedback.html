@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feedback</title>
+	<link href="../css/feedback.css" rel="stylesheet">
+	<link href="../css/HeaderAndFooter.css" rel="stylesheet">
+</head>
+
+
+<body>
+<div class="container">
+		<ul class="display">
+			<li><a href="">Home</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Booking</a></li>
+			<li><a href="">Dining</a></li>
+			<li><a href="">Gallery</a></li>
+			<li><a href="">Media</a></li>
+			<li><a href="">Meetings</a></li>
+			<li><a href="">Offers</a></li>
+			<li><a href="">Reference</a></li>
+			<li><a href="">Rooms</a></li>
+			<li><a href="">Supports</a></li>
+			<li><a href="">Contact</a></li>
+			<li><a href="">Faqs</a></li>
+		</ul>
+	</div>
+	<div class="burger">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	</div>
+	<header>
+		<h3 class="logo">Melbourne Hotel</h3>
+		<nav class="header">
+			<ul class="main-links">
+				<li><a href="" >Home</a></li>
+				<li><a href="../html/about.html">About</a></li>
+				<li><a href="">Booking</a></li>
+				<li><a href="">Dining</a></li>
+				<li><a href="">Gallery</a></li>
+				<li><a href="">Media</a></li>
+				<li><a href="">Meetings</a></li>
+				<li><a href="">Offers</a></li>
+				<li><a href="">Reference</a></li>
+				<li><a href="">Rooms</a></li>
+				<li><a href="">Supports</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a href="">Faqs</a></li>
+			</ul>
+			<!-- <div class="searchbar">
+			  <input type="text" class="search" value="Search Here">
+			  <input type="submit" class="btn">
+			</div> -->
+		</nav>
+	</header>
+
+<div class="row">
+  <div class="column2">
+    <div class="container3">
+	
+		<h1>Share Feedback on a Recent Stay</h1>
+	<p>To contact us electronically, please submit the online form below. You will receive an immediate  on-screen confirmation letting you know we have received your question or comment</p>
+<br>
+<p>All fields are required unless otherwise noted as optional</p>
+<br>
+<h3>Contact Information</h3>
+      <form >
+      
+        <div class="row">
+          <div class="column1">
+				<div class="row">
+					<div class="column1">
+						<label for="fname">Given/ First Name</label>
+						<input type="text" id="fname" name="fname" >
+					</div>
+				<div class="column1">
+						<label for="lname">Surname/ Last Name</label>
+						<input type="text" id="lname" name="lname">
+					</div>
+				</div>
+          
+            <label for="fname">Address</label>
+            <input type="text" id="addr" name="addr" required>
+			<div class="row">
+					<div class="column1">
+						<label for="cit">City</label>
+						<input type="text" id="cit" name="cit" required>
+					</div>
+				<div class="column1">
+						<label for="pcode">Postal Code</label>
+						<input type="number" id="pcode" name="pcode" required>
+					</div>
+				</div>
+			<div class="row">
+					<div class="column1">
+						<label for="countrycode">Country/ Region Code</label>
+						<input type="number" id="countrycode" name="countrycode" required>
+					</div>
+				<div class="column1">
+						<label for="pnumber">Phone Number</label>
+						<input type="number" id="pnumber" name="pnumber" required>
+					</div>
+			</div>
+			   <label for="worldoh">World of Hyatt # (optional)</label>
+            <input type="text" id="worldoh" name="worldoh">
+    
+    
+		
+			<h2>Reservation Details</h2>
+			<h3>Confirmation Number or Hotels & Dates (Choose one)</h3>
+			<p>Entering your confirmation number will help us locate your past reservation. If you can't find your confirmation number, select Hotel and Dates</p>
+			
+          </div>
+		
+			
+     </div>
+        <label>
+          <input type="radio" id="confirmnum" checked="checked" name="pastrev"> Confirmation Number
+        </label>
+		 <label>
+          <input type="radio" id="hoteldate" name="pastrev"> Hotel and Dates
+        </label>
+        
+		
+		<h2>Feedback Type</h2>
+		 <label>
+          <input type="radio" checked="checked" name="fbtype"> Billing
+        </label>
+		 <label>
+          <input type="radio" name="fbtype"> Stay Feedback
+        </label>
+		 <label>
+          <input type="radio" name="fbtype"> Service Feedback
+        </label>
+		 <label>
+          <input type="radio"  name="fbtype"> Account
+        </label>
+		 <label>
+          <input type="radio" name="fbtype"> Other
+        </label>
+			
+	
+		    <h2>Feedback</h2>
+		<textarea name="comment" id="fb"  maxlength="500" required></textarea>
+
+			<p>Do not provide payment or credit card information. Maximum 500 chatacters</p>
+			
+		<h2>Contact Method</h2>
+		 <label>
+          <input type="radio" id="callme" checked="checked" name="callme"> Call me
+        </label>
+		 <label>
+          <input type="radio" id="sendmail" name="sendmail"> Send me an email
+        </label>
+        
+		
+			<input type="submit" value="SUBMIT" name="submit" id="submit" class="btn" onchange="click()">
+			
+   
+		
+      </form>
+    </div>
+  </div>
+  
+</div>
+		
+			<footer>
+				<p class="address">
+					1 Southgate Avenue, Southbank, Melbourne, Victoria 3006, Australia T 61 (3) 8696 8888 F 61 (3) 9690
+					5889 E tlmel.info@langhamhotels.com
+				</p>
+				<h1 class="follow">
+					Follow US
+				</h1>
+				<div class="socialMedia">
+					<img src="../images/img1.webp" alt="" width="50" height="50">
+					<img src="../images/img1.webp" alt="" width="50" height="50">
+					<img src="../images/img1.webp" alt="" width="50" height="50">
+					<img src="../images/img1.webp" alt="" width="50" height="50">
+				</div>
+				<p class="rights">
+					© Langham Hotels International Limited. All Rights Reserved. 沪ICP备09039361号
+				</p>
+			</footer>
+			<script src="../js/feedback.js"></script>
+</body>
+</html>
