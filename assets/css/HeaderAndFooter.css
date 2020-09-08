@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+
+/* hamburger */
+
+.burger
+{
+    position: absolute;
+    background: black;
+    display: none;
+    right: 5%;
+    cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+/* Logo */
+.logo
+{
+    color: white;
+    font-size-adjust: none;
+    font-size: 50px;
+    padding-left:25px
+}
+
+/* nav bar menu */
+header
+{
+    background: black;
+    max-width: 100%;
+    height: 10%;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+nav a
+{
+    text-decoration: none;
+    color:black;
+}
+nav li
+{
+    list-style: none;
+}
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-links
+{
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+  
+}
+.main-links li a
+{
+    color: white;
+    margin: 13px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.main-links li:hover
+{
+    background: grey;
+}
+
+
+footer
+{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: lightblue;
+}
+footer .address , .rights , footer .follow
+{
+    text-align: center;
+    margin: 20px;
+}
+.socialMedia
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.socialMedia img
+{
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* Sponsers List */
+.sponsers .heading{
+    font-size: 50px;
+}
+.sponsers .heading , .sponsers .deatails
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.sponserList
+{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.sponsersItem
+{
+   
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 20px;
+}
+
+/* For mobile Screens */
+.container
+{
+    width: 100%;
+    height: 100%;
+    top: 5%;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    background-color: black;
+}
+.container .display li a
+{
+    color: white;
+    text-decoration: none;
+    
+}
+.container .display li
+{
+    display: block;
+    width: 10px;
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+
+/* Media Querries */
+/* For mobiles */
+@media only screen and (max-width: 640px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .burger
+    {
+        display: block;
+    }
+    .sponserList
+    {
+        flex-wrap: wrap;
+    }
+    .main-links{
+        display: none;
+    }
+    .main-links li
+    {
+        margin: 5px;
+    }
+    .socialMedia img
+    {
+       
+        flex-wrap: wrap;
+    }
+    .socialMedia
+    {
+        flex-wrap: wrap;
+    }
+
+    .rightslide , .leftslide{
+
+        top: 30%;
+        margin: -2%;
+    }
+    .features{
+        flex-wrap: wrap-reverse;
+    }
+
+
+
+
+  }
+/* Fore desktop */
+@media only screen and (min-width: 641px) {
+    /* body {
+      background-color: red;
+    } */
+    .main-links{
+        flex-wrap: wrap;
+    }
+    .main-links li
+    {
+        margin: 10px;
+    }
+    .socialMedia
+    {
+        flex-wrap: wrap;
+    }
+    .sponsersItem
+    {
+        flex-wrap: wrap;
+    }
+    
+    .features{
+        flex-wrap: wrap;
+    }
+
+    
+  }
+/* Tablets */
+
+@media screen and (min-width:1008px)
+{
+    /* *{
+        background: blue;
+    } */
+    
+}
+
