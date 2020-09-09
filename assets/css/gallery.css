@@ -6,7 +6,9 @@
 body{
     background-color: gray;
 }
-
+.leftdetails{
+		padding:10%;
+}
 
 .galleryMain
 {
