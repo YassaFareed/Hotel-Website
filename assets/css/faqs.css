@@ -1,0 +1,36 @@
+.div-block{
+	position:static;
+	border:5px solid black;
+	background-color:#f0f9fa;
+	width:90%;
+	margin-left:4%;
+
+}
+.faq{
+	border:0;	
+	position:relative;
+	width:95%;	
+	top:10px;
+	left:10px;
+	padding:10px;
+	font-family:Arial;
+	font-size:1.3rem;
+	font-weight:1.2;
+}	
+.ques{
+	font-size:3rem;
+	font-weight:1.6;
+	color:red;
+
+}
+.ans{
+	font-size:3rem;
+	font-weight:1.6;
+	color:green;
+
+}
+.faqheading{
+	padding:10px;
+	font-size:4rem;
+	text-align:center;
+}
