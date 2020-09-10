@@ -106,12 +106,23 @@
     .roomList{
         flex-wrap: wrap;
         flex-direction: row;
+        margin: 20px auto;
+    }
+    .room{
+        margin: 20px auto;
     }
 
   }
 /* Fore desktop */
 @media only screen and (min-width: 641px) {
-    
+    .roomList{
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 20px auto;
+    }
+    .room{
+        margin: 20px auto;
+    }
     
   }
 /* Tablets */
