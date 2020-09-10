@@ -80,8 +80,8 @@ footer
 {
     height: 400px;
     display: flex;
+    width: auto;
     flex-direction: column;
-
     background-color: lightblue;
 }
 footer .address , .rights , footer .follow
