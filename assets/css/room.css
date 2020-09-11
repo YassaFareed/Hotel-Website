@@ -6,6 +6,11 @@
     display: flex;
     background-color: lightblue;
 }
+.roomList a{
+    text-decoration: none;
+    color: black;
+    background: wheat;
+}
 .rightImg
 {
     width: 50%;
