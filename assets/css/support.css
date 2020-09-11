@@ -1,0 +1,67 @@
+
+
+
+.helpoption
+{
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+.helpoption img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.helpoption .help
+{
+    position: absolute;
+    top: 30%;
+    font-size:30px;
+    left: 50%;
+    color: white;
+    transform: translate(-40%, -40%);
+}
+.helpoption input
+{
+    position: absolute;
+    top: 40%;
+    width: 400px;
+    height: 30px;
+    font-size:16px;
+    left: 50%;
+    text-align: center;
+    color: black;
+    transform: translate(-40%, -40%);
+}
+.helpoption button
+{
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    height: 30px;
+    font-size:15px;
+    left: 50%;
+    color: black;
+    transform: translate(-40%, -40%);
+}
+
+.options
+{
+    display: flex;
+    width: 95%;
+    height: 100%;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.option
+{
+    width: 400px;
+    text-align: center;
+    height: 500px;
+    margin: 40px;
+    border: 4px solid black;
+    border-radius: 20px;
+}
