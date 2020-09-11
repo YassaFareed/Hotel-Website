@@ -40,7 +40,7 @@
 /* nav bar menu */
 header
 {
-    background: black;
+    background: #181510;
     max-width: 100%;
     height: 10%;
     display: block;
@@ -50,7 +50,7 @@ header
 nav a
 {
     text-decoration: none;
-    color:black;
+    color:#785F37;
 }
 nav li
 {
@@ -71,7 +71,7 @@ nav li
 }
 .main-links li a
 {
-    color: white;
+    color: #785F37;
     margin: 13px;
     flex-wrap: wrap;
     align-content: center;
@@ -87,7 +87,6 @@ footer
     height: 400px;
     display: flex;
     flex-direction: column;
-
     background-color: lightblue;
 }
 footer .address , .rights , footer .follow
