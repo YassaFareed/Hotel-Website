@@ -1,4 +1,7 @@
 
+*{
+	font-family: 'Kalam', cursive;
+}
  .div-block{
 
 	position:static;
@@ -15,20 +18,28 @@
 	top:10px;
 	left:10px;
 	padding:10px;
-	font-family:Arial;
 	font-size:1.3rem;
 	font-weight:1.2;
+	font-family: 'Kalam', cursive;
+	
 }	
+.bold
+{
+	font-weight: 800;
+}
 .ques{
 	font-size:3rem;
 	font-weight:1.6;
 	color:red;
+	font-family: 'Kalam', cursive;
+	font-weight: 800;
 
 }
 .ans{
 	font-size:3rem;
 	font-weight:1.6;
 	color:green;
+	font-family: 'Kalam', cursive;
 
 }
 .faqheading{

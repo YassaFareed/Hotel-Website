@@ -2,10 +2,15 @@
     padding: 0;
     margin: 0;
     box-shadow: none;
+    font-family: 'Kalam', cursive;
 }
 
 
 /* hamburger */
+.hide
+{
+    display: none;
+}
 
 .burger
 {
@@ -28,7 +33,8 @@
     color: white;
     font-size-adjust: none;
     font-size: 50px;
-    padding-left:25px
+    padding-left:25px;
+    
 }
 
 /* nav bar menu */
@@ -80,8 +86,8 @@ footer
 {
     height: 400px;
     display: flex;
-    width: auto;
     flex-direction: column;
+
     background-color: lightblue;
 }
 footer .address , .rights , footer .follow
@@ -135,7 +141,7 @@ footer .address , .rights , footer .follow
 {
     width: 100%;
     height: 100%;
-    top: 5%;
+    top: 15%;
     position: absolute;
     display: none;
     z-index: 1;
@@ -162,6 +168,19 @@ footer .address , .rights , footer .follow
     /* body {
       background-color: lightblue;
     } */
+    .hide{
+        background: black;
+        color: white;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 30px;
+        display: block;
+        padding-top: 20px;
+    }
+    .logo
+    {
+        display: none;
+    }
     .burger
     {
         display: block;
@@ -171,15 +190,20 @@ footer .address , .rights , footer .follow
         flex-wrap: wrap;
     }
     .main-links{
-        display: none;
+        color: black;
     }
     .main-links li
     {
         margin: 5px;
+        color: black;
+        
     }
+    .main-links li a{
+        color: black;
+    }
+
     .socialMedia img
     {
-       
         flex-wrap: wrap;
     }
     .socialMedia

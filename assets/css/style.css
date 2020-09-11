@@ -7,6 +7,12 @@
     margin: auto;
     position: relative;
 }
+
+.item img
+{
+    width: 100%;
+    height: 700px;
+}
 .rightslide , .leftslide{
 
     position: absolute;
@@ -143,6 +149,15 @@ h4 {
 
 /* The Features */
 
+.box img
+{
+    width: 300px;
+}
+.sponsersItem img
+{
+    width: 200px;
+    height: 200px;
+}
 .featureHeading
 {
     font-size:8vw;
