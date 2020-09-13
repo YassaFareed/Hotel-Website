@@ -39,6 +39,10 @@
     flex-wrap: wrap;
     margin: 20px auto
 }
+.galleryMain
+{
+    background: #D6D6D6;
+}
 .room
 {
     background-color: rgb(223, 222, 213);
@@ -52,6 +56,10 @@
     border: 2px solid lightgray;
 }
 
+body
+{
+    background-color: #EBEBEB;
+}
 .room .heading , .details
 {
     margin-top: 10px;
@@ -107,6 +115,7 @@
 
     .galleryMain{
         flex-wrap: wrap-reverse;
+        background: #D6D6D6;
     }
     .roomList{
         flex-wrap: wrap;

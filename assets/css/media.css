@@ -5,6 +5,10 @@ body
 {
     background-color: darkgray;
 }
+body
+{
+    background-color: #EBEBEB;
+}
 .events
 {
     display: flex;
