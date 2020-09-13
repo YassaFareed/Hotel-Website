@@ -1,4 +1,7 @@
-
+body
+{
+    background-color: #EBEBEB;
+}
 /* Image Slider */
 
 .images
@@ -226,23 +229,6 @@ h4 {
     margin-bottom: 40px;
 }
 
-.video
-{
-    width: 70%;
-    margin: 20px auto;
-    border: 4px solid black;
-    padding: 20px;
-
-   
-}
-
-.video iframe
-{
-    display: flex;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    width: 100%;
-}
 
 
 

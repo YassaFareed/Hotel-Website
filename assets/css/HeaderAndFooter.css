@@ -30,7 +30,7 @@
 /* Logo */
 .logo
 {
-    color: white;
+    color: black;
     font-size-adjust: none;
     font-size: 50px;
     padding-left:25px;
@@ -40,7 +40,8 @@
 /* nav bar menu */
 header
 {
-    background: #181510;
+
+    background: #CCCCCC;
     max-width: 100%;
     height: 10%;
     display: block;
@@ -55,6 +56,10 @@ nav a
 nav li
 {
     list-style: none;
+}
+body
+{
+    background-color: #EBEBEB;
 }
 .header
 {
@@ -71,14 +76,15 @@ nav li
 }
 .main-links li a
 {
+
     color: #785F37;
-    margin: 10px;
+    margin: 5px;
     flex-wrap: wrap;
     align-content: center;
 }
 .main-links li:hover
 {
-    background: grey;
+    background: white; 
 }
 
 
@@ -87,7 +93,9 @@ footer
     height: 400px;
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
+
+    background-color: #CCCCCC;
+
 }
 footer .address , .rights , footer .follow
 {
@@ -101,11 +109,9 @@ footer .address , .rights , footer .follow
     align-content: center;
     flex-wrap: wrap;
 }
-.socialMedia img
+.socialMedia i
 {
-    border-radius: 20px;
-    padding: 10px;
-    cursor: pointer;
+    padding:5px;
 }
 
 
@@ -168,8 +174,8 @@ footer .address , .rights , footer .follow
       background-color: lightblue;
     } */
     .hide{
-        background: black;
-        color: white;
+        background: #CCCCCC;
+        color: black;
         width: 100%;
         margin: 0 auto;
         padding-left: 30px;
@@ -194,11 +200,11 @@ footer .address , .rights , footer .follow
     .main-links li
     {
         margin: 5px;
-        color: black;
+        color: white;
         
     }
     .main-links li a{
-        color: black;
+        color: white;
     }
 
     .socialMedia img

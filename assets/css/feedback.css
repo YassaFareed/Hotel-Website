@@ -3,6 +3,10 @@ body {
   font-size: 16px;
   padding: 8px;
 }
+body
+{
+    background-color: #EBEBEB;
+}
 
 * {
   box-sizing: border-box;

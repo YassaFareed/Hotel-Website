@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body
+{
+    background-color: #EBEBEB;
+}
 body{
     background-color: gray;
 }
@@ -15,17 +19,19 @@ body{
     height: 20%;
     width: 100%;
     display: flex;
-    background-color: lightblue;
+    background: #D6D6D6;
 }
 .rightImg
 {
     width: 50%;
+    background: #D6D6D6;
+  
 }
 .hotalimg
 {
     width: 100%;
     height: auto;
-    
+    background: #D6D6D6;
 }
 
 .leftdetails
@@ -33,6 +39,7 @@ body{
     font-size: 2vm;
     text-align: center;
    margin: 30px;
+   background: #D6D6D6;
 }
 
 .galleryImagesList
@@ -40,7 +47,7 @@ body{
     width: 95%;
     margin:3%;
     display: flex;
-    background-color: darkgray;
+    background: #D6D6D6;
     flex-direction: column;
 }
 
