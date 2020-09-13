@@ -40,11 +40,8 @@
 /* nav bar menu */
 header
 {
-<<<<<<< HEAD
+
     background: #CCCCCC;
-=======
-    background: #181510;
->>>>>>> 4ed0e6d5b589a4d2b717a0b6e33b109de5a14e72
     max-width: 100%;
     height: 10%;
     display: block;
@@ -79,18 +76,15 @@ body
 }
 .main-links li a
 {
-<<<<<<< HEAD
-    color: black;
-=======
+
     color: #785F37;
->>>>>>> 4ed0e6d5b589a4d2b717a0b6e33b109de5a14e72
-    margin: 13px;
+    margin: 5px;
     flex-wrap: wrap;
     align-content: center;
 }
 .main-links li:hover
 {
-    /* background: grey; */
+    background: white; 
 }
 
 
@@ -99,12 +93,9 @@ footer
     height: 400px;
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
 
     background-color: #CCCCCC;
-=======
-    background-color: lightblue;
->>>>>>> 4ed0e6d5b589a4d2b717a0b6e33b109de5a14e72
+
 }
 footer .address , .rights , footer .follow
 {
@@ -118,11 +109,9 @@ footer .address , .rights , footer .follow
     align-content: center;
     flex-wrap: wrap;
 }
-.socialMedia img
+.socialMedia i
 {
-    border-radius: 20px;
-    padding: 10px;
-    cursor: pointer;
+    padding:5px;
 }
 
 
