@@ -11,12 +11,24 @@ body
 {
     background-color: #EBEBEB;
 }
+div.burger
+{
+    background-color: rgb(119, 115, 115);
+}
+.burger div
+{
+    background-color: #c0bcbc;
+}
+.bar1 , .bar1 , .bar1
+{
+    background-color: #EBEBEB;
+}
 .offer
 {
     display: flex;
     width: 600px;
     margin: 20px auto;
-    border: 4px solid black;
+    border: 4px solid darkgray;
 
 }
 .offer .left

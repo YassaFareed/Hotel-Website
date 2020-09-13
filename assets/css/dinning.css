@@ -28,7 +28,18 @@ body
    margin: 30px;
 }
 
-
+div.burger
+{
+    background-color: rgb(119, 115, 115);
+}
+.burger div
+{
+    background-color: #c0bcbc;
+}
+.bar1 , .bar1 , .bar1
+{
+    background-color: #EBEBEB;
+}
 .dinningHotals{
     display: flex;
     flex-direction: row;
@@ -37,27 +48,26 @@ body
     background: lightgray;
     width: 80%;
     margin: 4% auto;
-
 }
 
 .hotal
 {
     width: 300px;
-    height: 400px;
+    height: 500px;
     margin: 30px;
     padding-top: 70px;
     padding-bottom: 70px;
+    border: 4px solid darkgray;
     
 }
 .hotal img
 {
-    
-    width: 100%;
+    width: 70%;
     height: auto;
     padding: 10px;
+    display: block;
+    margin: 0 auto;
     border: 6px solid black;
- 
-   
 }
 .hotal .heading
 {
@@ -95,6 +105,16 @@ body
     .dinningHotals{
         flex-wrap: wrap;
     }
+    .rightImg
+{
+    width: 100%;
+	
+}
+.leftdetails
+{
+    width: 100%;
+
+}
 
     .galleryMain{
         flex-wrap: wrap-reverse;

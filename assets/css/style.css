@@ -4,37 +4,15 @@ body
 }
 /* Image Slider */
 
-.images
+.images img
 {
     max-width: 100%;
+    width: 100%;
+    height: auto;
     margin: auto;
     position: relative;
 }
 
-.item img
-{
-    width: 100%;
-    height: 700px;
-}
-.rightslide , .leftslide{
-
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    color:black;
-    background-color:  rgb(80, 77, 77);
-    font-size: 40px;
-    font-weight: bolder;
-    top: 50%;
-    margin: -5%;
-    text-align: center;
-    line-height: 40px;
-    cursor: pointer;
-    transition: all .5s ease;
-}
-.rightslide:hover , .leftslide:hover{
-    background: blue;
-}
 
 .rightslide
 {
@@ -70,6 +48,18 @@ body
     margin: 0 auto;
 
 }
+div.burger
+{
+    background-color: rgb(119, 115, 115);
+}
+.burger div
+{
+    background-color: #c0bcbc;
+}
+.bar1 , .bar1 , .bar1
+{
+    background-color: #EBEBEB;
+}
 .images .img-items .item.active
 {
     display:block;
@@ -95,59 +85,6 @@ body
   }
 
 
-
-/*shows active status of navbar*/
-/* .active{
-    background-color:slategray;
-}
-
-.About-background{
-    background-image : url("../images/room.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.content-wrapper{
-    float:left;
-    width:80%;
-    margin-top:5%;
-    margin-left:5%;
-    line-height:1.9;
-    font-variant-caps:normal;
-    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
-    font-stretch: expanded;
-    font-size:15pt;
-   
-}
-.overview{
-    margin-top:9%;
-}
-
-.quote{
-    margin-top:9%;
-    font-size:20pt;
-    color:purple;
-    font-weight:bold;
-}
-h1 {
-    font-size: 36px;
-    line-height: 40px;
-  
-}
-
-h2 {
-    font-size: 30px;
-    line-height: 40px;
-}
-h3 {
-    font-size: 24px;
-    line-height: 40px;
-}
-
-h4 {
-    font-size: 18px;
-    line-height: 20px;
-} */
 
 
 /* The Features */
@@ -194,9 +131,9 @@ h4 {
 
 .box
 {
-    border: 4px dashed black;
+    border: 4px solid darkgray;
     width: 300px;
-    height: 500px;
+    height: 600px;
     margin: 30px;
     border-radius: 30px;
 }
@@ -241,6 +178,7 @@ h4 {
     .burger
     {
         display: block;
+        
     }
     .sponserList
     {

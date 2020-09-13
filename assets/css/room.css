@@ -44,6 +44,18 @@
 {
     background: #D6D6D6;
 }
+div.burger
+{
+    background-color: rgb(119, 115, 115);
+}
+.burger div
+{
+    background-color: #c0bcbc;
+}
+.bar1 , .bar1 , .bar1
+{
+    background-color: #EBEBEB;
+}
 .room
 {
     background-color: rgb(223, 222, 213);

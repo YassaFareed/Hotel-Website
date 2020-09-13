@@ -9,6 +9,8 @@ body
 {
     background-color: #EBEBEB;
 }
+
+
 .events
 {
     display: flex;
@@ -74,11 +76,39 @@ body
     margin-top: 20px;
     background: lightblue;
 }
+div.burger
+{
+    background-color: rgb(119, 115, 115);
+}
+.burger div
+{
+    background-color: #c0bcbc;
+}
+.bar1 , .bar1 , .bar1
+{
+    background-color: #EBEBEB;
+}
 .right hr
 {
  
     margin-top: 20px;
 }
+
+#video123{
+    position: relative;
+    width: 50%;
+    height: 100px;
+    margin: 20px auto;
+    padding-bottom: 20%;
+
+  }
+  #video123 iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
 /* Media Querries */
 /* For mobiles */
@@ -90,13 +120,19 @@ body
     {
         flex-wrap: wrap;
         width: 300px;
-         height: 400px;
+         height: 600px;
          margin: 30px auto;
+    }
+    .container
+    {
+        z-index: 2;
     }
 .left
 {
     width: 100%;
-    height: 35%;
+    height: 40%;
+    scroll-behavior: unset;
+    overflow: hidden;
     
 }
 .left img
@@ -109,7 +145,7 @@ body
     box-shadow: 12px 0 15px -4px #888, -12px 8px 8px -4px #888;
     border-radius: 2em;
     position:relative;
-    z-index:999999;
+    z-index:1;
 }
 .left button
 {
@@ -130,25 +166,9 @@ body
     margin-top: 50px;
 }
 
-.video
-{
-    width: 70%;
-    margin: 20px auto;
-    border: 4px solid black;
-    padding: 20px;
 
-   
+
 }
-
-.video iframe
-{
-    display: flex;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-
  
 /* Fore desktop */
 @media (min-width: 641px) and (max-width: 940px) {
@@ -176,7 +196,7 @@ body
     box-shadow: 12px 0 15px -4px #888, -12px 8px 8px -4px #888;
     border-radius: 2em;
     position:relative;
-    z-index:999999;
+    z-index:0;
 }
 .left button
 {

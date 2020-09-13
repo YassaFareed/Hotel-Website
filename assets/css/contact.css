@@ -17,7 +17,18 @@ body
   margin-bottom: 1%;
   resize: vertical;
 }
-
+div.burger
+{
+    background-color: rgb(119, 115, 115);
+}
+.burger div
+{
+    background-color: #c0bcbc;
+}
+.bar1 , .bar1 , .bar1
+{
+    background-color: #EBEBEB;
+}
 #sub{
   background-color: #3e55c7;
   color: white;

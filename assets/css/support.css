@@ -2,6 +2,7 @@
 body
 {
     background-color: #EBEBEB;
+    overflow: hidden;
 }
 .helpoption
 {
@@ -10,12 +11,14 @@ body
     height: 300px;
     background-color: #F5F5F5;
     border-radius: 300px;
+    overflow-y: hidden;
 }
 
 .helpoption img
 {
     width: 100%;
     height: 350px;
+    overflow-y: hidden;
 }
 
 .helpoption .help
@@ -59,22 +62,34 @@ body
     flex-wrap: wrap;
     margin: 20px auto;
 }
-
+div.burger
+{
+    background-color: rgb(119, 115, 115);
+}
+.burger div
+{
+    background-color: #c0bcbc;
+}
+.bar1 , .bar1 , .bar1
+{
+    background-color: #EBEBEB;
+}
 .option
 {
     width: 300px;
     text-align: center;
-    height: 400px;
+    height: 500px;
     margin: 50px;
     border: 4px solid black;
     border-radius: 20px;
+    margin: 50px auto;
 }
 
 @media all and (max-width:640px){
 .helpoption .help
 {
     position: absolute;
-    top: 40%;
+    top: 20%;
     font-size:20px;
     left: 50%;
     color: white;
@@ -83,14 +98,27 @@ body
 .helpoption input
 {
     position: absolute;
-    top: 50%;
+    top: 25%;
     width: 200px;
     height: 30px;
     font-size:16px;
+    background-color: #c0bcbc;
+    border-radius: 20px;
     left: 50%;
     text-align: center;
     color: black;
     transform: translate(-40%, -40%);
 }		
+.helpoption button
+{
+    position: absolute;
+    top: 33%;
+    width: 100px;
+    height: 30px;
+    font-size:15px;
+    left: 50%;
+    color: black;
+    transform: translate(-40%, -40%);
+}
 		
 }

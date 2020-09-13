@@ -2,6 +2,18 @@
 *{
 	font-family: 'Kalam', cursive;
 }
+div.burger
+{
+    background-color: rgb(119, 115, 115);
+}
+.burger div
+{
+    background-color: #c0bcbc;
+}
+.bar1 , .bar1 , .bar1
+{
+    background-color: #EBEBEB;
+}
  .div-block{
 
 	position:static;
@@ -9,10 +21,12 @@
 	background-color:#f0f9fa;
 	width:90%;
 	margin: 50px auto;
+	
 }
 body
 {
-    background-color: #EBEBEB;
+	background-color: #EBEBEB;
+	
 }
 .faq{
 
@@ -26,7 +40,13 @@ body
 	font-weight:1.2;
 	font-family: 'Kalam', cursive;
 	
+	
 }	
+.questions
+{
+	height: 100%;
+	overflow: hidden;
+}
 .bold
 {
 	font-weight: 800;

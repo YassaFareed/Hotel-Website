@@ -1,22 +1,29 @@
 #main {
   width: 80%;
-  height: 700px;
+  height: 100%;
   border: 5px solid #c3c3c3;
   display: flex;
   flex-wrap: wrap;
-  margin-left:5%;
-  margin-right:5%;
+  margin: 0 auto;
 }
-
+div.burger
+{
+    background-color: rgb(119, 115, 115);
+}
+.burger div
+{
+    background-color: #c0bcbc;
+}
+.bar1 , .bar1 , .bar1
+{
+    background-color: #EBEBEB;
+}
 #main div {
   width: 100%;
   height: 90%;
   padding:2%;
-  margin-top:2%;
-  margin-left:2%;
-  margin-right:2%;
-  margin-bottom:2%;
-  background-color:coral;
+  
+  background-color:darkgray;
 }
 
 .referenceHead{

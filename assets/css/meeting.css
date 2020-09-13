@@ -83,7 +83,18 @@ body
 
     margin: 0 auto;
 }
-
+div.burger
+{
+    background-color: rgb(119, 115, 115);
+}
+.burger div
+{
+    background-color: #c0bcbc;
+}
+.bar1 , .bar1 , .bar1
+{
+    background-color: #EBEBEB;
+}
 .MainHeading
 {
     margin: 50px;
@@ -95,7 +106,7 @@ body
     display: flex;
     width: 95%;
     height: 100%;
-
+    
     flex-direction: column;
 }
 
@@ -105,7 +116,7 @@ body
     width: 100%;
     height: 500px;
     margin: 30px;
-    background: lightblue;
+    background-color: #D6D6D6;
 }
 .meetingLeft .left
 {
@@ -171,6 +182,20 @@ body
     .mainImages{
         flex-wrap: wrap;
     }
+    .Meatings
+    {
+        flex-wrap: wrap;
+    }
+
+    .meetingLeft
+    {
+        flex-wrap: wrap-reverse;
+    }
+   .meetingLeft .left img
+    {
+        
+        width: 50%;
+    }
 
     
 .
@@ -186,6 +211,7 @@ body
     .mainImages{
         flex-wrap: wrap;
     }
+
   }
 /* Tablets */
 
