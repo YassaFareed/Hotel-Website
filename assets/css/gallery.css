@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+
   
 }
 .images img{
@@ -19,7 +20,9 @@ div.burger
 {
     background-color: #EBEBEB;
 }
-
+.valid{
+		border:none;
+}
 body {
   background-color: #ebebeb;
 }
@@ -47,7 +50,7 @@ body {
 }
 
 .leftdetails {
-  font-size: 2vm;
+  font-size: 2vw;
   text-align: center;
   margin: 30px;
   background: #d6d6d6;

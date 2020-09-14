@@ -94,7 +94,7 @@ footer
     height: 400px;
     display: flex;
     flex-direction: column;
-
+	  overflow: hidden;
     background-color: #CCCCCC;
 
 }
