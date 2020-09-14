@@ -3,6 +3,10 @@
   padding: 0;
   
 }
+.images img{
+  width: 30%;
+  height: auto;
+}
 div.burger
 {
     background-color: rgb(119, 115, 115);
