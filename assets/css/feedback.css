@@ -2,10 +2,16 @@ body {
   font-family: Arial;
   font-size: 16px;
   padding: 8px;
+  background: #D6D6D6;
+  
+}
+.con{
+  background: #D6D6D6;
 }
 div.burger
 {
     background-color: rgb(119, 115, 115);
+    
 }
 .burger div
 {
@@ -28,6 +34,7 @@ body
   display: flex;
   flex-wrap: wrap;
   margin: 0 -16px;
+  
 }
 
 .column {
